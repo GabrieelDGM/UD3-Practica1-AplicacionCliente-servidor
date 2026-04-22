@@ -10,12 +10,12 @@ Se creó la clase HiloCliente.java, que extiende Thread. Cada vez que un cliente
     • Se usó Collections.synchronizedList para que la lista de clientes sea segura.
     • En el servidor, se añadió un bucle while(true) que acepta clientes y crea un hilo por cada uno.
 
-**Fragmento clave**
-`HiloCliente hilo = new HiloCliente(socketCliente, clientes);`
-`clientes.add(hilo);`
-`hilo.start();`
+## Fragmento clave
+*HiloCliente hilo = new HiloCliente(socketCliente, clientes);
+*clientes.add(hilo);
+*hilo.start();`
 
-**Clases implicadas**
+## Clases implicadas
 ServidorDebate.java y HiloCliente.java — ambas en src/servidor/
 
 [Volver al README](../../README.md)
