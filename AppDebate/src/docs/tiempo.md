@@ -20,5 +20,6 @@ temporizador.setDaemon(true);
 temporizador.start();
 
 # Control de excepciones
-Se capturan las siguientes excepciones a lo largo del proyecto:
 ![Imagen](../img/image.png)
+
+[Volver al README](../../README.md)
