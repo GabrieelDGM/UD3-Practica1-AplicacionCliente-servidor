@@ -1,5 +1,12 @@
 # Aplicación de Debate – Cliente/Servidor con Sockets
 
+## Rutas de documentacion del ejercicio
+[EjercicioUno](src/docs/ejercicioUno.md)
+[EjercicioDos](src/docs/ejercicioDos.md)
+[EjercicioTres](src/docs/ejercicioTres.md)
+[Tiempo](src/docs/tiempo.md)
+[Funcionalidad](src/docs/funcionalidad.md)
+
 ## Descripción
 Esta aplicación permite que varios usuarios debatan en tiempo real sobre un tema elegido al azar por el servidor. El debate tiene una duración fija de 1 minuto, tras el cual el servidor cierra automáticamente todas las conexiones.
 Está desarrollada en Java, usando sockets para la comunicación en red e hilos para gestionar varios clientes a la vez.
@@ -56,3 +63,4 @@ El cliente y el servidor deben estar en la misma red para conectarse. Si quieres
 
 # Aplicacion creada por:
 ### Gabriel David Gelviz Monterrey
+
