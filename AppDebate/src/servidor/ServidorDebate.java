@@ -10,8 +10,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import service.HiloCliente;
-
 public class ServidorDebate {
 
     private static final int PUERTO = 5000;
