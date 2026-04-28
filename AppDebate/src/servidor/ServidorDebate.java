@@ -13,7 +13,7 @@ import java.util.Random;
 public class ServidorDebate {
 
     private static final int PUERTO = 5000;
-    private static final int TIEMPO_DEBATE = 60;
+    private static final int TIEMPO_DEBATE = 100;
 
     private static ArrayList<String> temas = new ArrayList<>(Arrays.asList(
         "¿Qué selección ganará el Mundial 2026?",
@@ -59,7 +59,7 @@ public class ServidorDebate {
                 
                 hilo.start(); 
 
-                Thread.sleep(200);
+                Thread.sleep(500);
                 hilo.enviarMensaje("(= BIENVENIDO AL DEBATE =)");
                 hilo.enviarMensaje("Tema: " + temaElegido);
                 hilo.enviarMensaje("Tienes " + TIEMPO_DEBATE + " segundos para debatir.");
